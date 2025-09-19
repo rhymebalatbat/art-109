@@ -1,0 +1,23 @@
+/* Colour Palette: */
+/* yakult creame: rgb(255, 215, 215)
+   yakult red:  */
+
+/* GLOBAL STYLES */
+
+body {
+    background: rgb(255, 215, 215);
+}
+
+/* HOMEPAGE */
+
+.home{
+    background: url(../images/jawbreaker_1920.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* RESUME */
+
+/* FOOTER */
+
+
