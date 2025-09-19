@@ -8,6 +8,28 @@ body {
     background: rgb(255, 215, 215);
 }
 
+/* LINKS */
+
+a{
+    color: rgb(144, 37, 252);
+}
+
+a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: rgb(144, 37, 252);
+}
+
+.btn{
+    background: rgb(255, 55, 128);
+    color: rgb(255, 215, 215);
+    text-decoration: none;
+}
+
+
 /* HOMEPAGE */
 
 .home{
@@ -15,9 +37,16 @@ body {
     background-size: cover;
 }
 
+.home .content-wrapper{
+    background: rgb(255, 215, 215);
+}
+
 
 /* RESUME */
 
 /* FOOTER */
 
+footer{
+    background: rgb(255, 55, 128);
+}
 
