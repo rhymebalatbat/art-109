@@ -4,49 +4,120 @@
 
 /* GLOBAL STYLES */
 
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background: rgb(255, 215, 215);
 }
 
 /* LINKS */
 
-a{
+a {
     color: rgb(144, 37, 252);
 }
 
-a:hover{
+a:hover {
     color: antiquewhite;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: rgb(144, 37, 252);
 }
 
-.btn{
+.btn {
     background: rgb(255, 55, 128);
     color: rgb(255, 215, 215);
     text-decoration: none;
 }
 
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+/* PROFILE */
+
+.project-item{
+    display: flow-root;
+    margin: 30px 0;
+}
+.project-item img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
 
 /* HOMEPAGE */
 
-.home{
+.home {
     background: url(../images/jawbreaker_1920.jpg) no-repeat;
     background-size: cover;
 }
 
-.home .content-wrapper{
+.home .content-wrapper {
     background: rgb(255, 215, 215);
 }
 
 
 /* RESUME */
 
+.resume header::before {
+    background: url(../images/jawbreaker_1920.jpg);
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+.resume-section{
+    margin-bottom: 50px;
+}
+
+.resume-section h2{
+    border-bottom: 10px dashed rgb(255, 65, 128);
+}
+
+.download-link{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
 /* FOOTER */
 
-footer{
+footer {
     background: rgb(255, 55, 128);
 }
 
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+.socials img {
+    width: 32px;
+}
