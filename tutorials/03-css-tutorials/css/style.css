@@ -72,10 +72,25 @@ footer a:hover {
 .home {
     background: url(../images/jawbreaker_1920.jpg) no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .home .content-wrapper {
-    background: rgb(255, 215, 215);
+    flex: 1 0 auto;
+}
+
+.content-bg{
+      background: rgb(255, 215, 215);  
+      padding: 30px;
+}
+
+/* WORK EXPERIENCE */
+
+.work-item{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
 }
 
 
@@ -107,6 +122,9 @@ footer a:hover {
 
 footer {
     background: rgb(255, 55, 128);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .socials {
@@ -116,8 +134,13 @@ footer {
 
 .socials li {
     display: inline-block;
+    margin-left: 10px;
 }
 
 .socials img {
     width: 32px;
+}
+
+.socials img:hover{
+    opacity: 0.5;
 }
