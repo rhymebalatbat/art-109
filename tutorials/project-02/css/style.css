@@ -29,7 +29,7 @@ body {
 
 body {
    background-image: url('../images/final_stage.jpg');
-   background-size: cover;
+   background-size: fill;
    background-repeat: no-repeat;
    font-size: 1.6rem;
    /* font-size 1.6rem is now the same as 16px */
@@ -38,7 +38,7 @@ body {
 }
 
 header {
-   padding: 50px;
+   padding: 30px;
    background-color: rgb(255, 36, 91);
    text-align: center;
 }
