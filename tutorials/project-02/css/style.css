@@ -28,50 +28,96 @@ body {
 
 
 body {
-    font-size: 1.6rem;
+   background-image: url('../images/final_stage.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-size: 1.6rem;
    /* font-size 1.6rem is now the same as 16px */
    line-height: 1.6;
+   top: 500px;
 }
 
-header{
-    padding: 50px;
-    background-color: rgb(255, 36, 91);
-    text-align: center;
+header {
+   padding: 50px;
+   background-color: rgb(255, 36, 91);
+   text-align: center;
 }
 
-/* main{
-
-} */
-
-.image-div{
+.image-div {
    display: inline-block;
    position: absolute;
    top: 50px;
    right: 50px;
 }
 
-#image-0{
+#image-0 {
    position: absolute;
    top: 50px;
-   right: 50px;
+   right: 200px;
 }
 
-#image-1{
+#image-1 {
    position: absolute;
    top: 250px;
-   right: 20px;
+   left: 200px;
 }
 
-#image-2{
-   position: fixed;
-   top: 20px;
-   right: 150px;
+#image-2 {
+   position: absolute;
+   top: 150px;
+   right: 70px;
 }
 
-#image-2{
-   position: fixed;
+#image-3 {
+   position: absolute;
+   top: 150px;
+   left: 10px;
+}
+
+#image-4 {
+   position: absolute;
+   top: 300px;
+   right: 80px;
+}
+
+#image-5 {
+   position: absolute;
    top: 200px;
    right: 190px;
 }
 
+#image-6 {
+   position: absolute;
+   top: 150px;
+   left: 50px;
+}
 
+#image-7 {
+   position: absolute;
+   top: 50px;
+   right: 10px;
+}
+
+#image-8 {
+   position: absolute;
+   top: -100px;
+   right: 550px;
+}
+
+#image-9 {
+   position: absolute;
+   top: -150px;
+   right: 0px;
+}
+
+#image-10 {
+   position: absolute;
+   top: 400px;
+   left: -150px;
+}
+
+#image-11 {
+   position: absolute;
+   top: 400px;
+   right: 10px;
+}
